@@ -18,7 +18,7 @@ export default function SectionTwo() {
         </div>
         <p className="mt-3 text-sm uppercase tracking-wide text-gray-300 sm:text-base">
           Serving across the globe with a network of{' '}
-          <span className="font-bold text-foreground">banks</span>
+          <span className="font-bold text-foreground">300+ KOLs</span>
         </p>
       </div>
     </section>

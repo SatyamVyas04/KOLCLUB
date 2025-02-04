@@ -39,7 +39,7 @@ export default function Hero() {
         className="absolute inset-0 flex items-center justify-center space-y-2"
         style={{ filter: 'drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.75))' }}
       >
-        <section className="xl:gap-6m flex flex-col items-center gap-2 rounded-lg bg-opacity-50 p-6 text-center font-semibold uppercase tracking-tighter md:gap-3 lg:gap-4">
+        <section className="xl:gap-6m flex flex-col items-center gap-2 rounded-lg bg-opacity-50 p-6 text-center font-semibold uppercase tracking-widest md:gap-3 lg:gap-4">
           <h2 className="text-4xl md:text-6xl lg:text-7xl">Welcome to</h2>
           <h2 className="text-3xl md:text-4xl lg:text-5xl">The Future of </h2>
           <h1 className="bold lg:text-10xl scale-125 font-pxl text-6xl tracking-[-8px] md:text-9xl">
