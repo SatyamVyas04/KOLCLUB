@@ -6,6 +6,8 @@ import Mission from '@/components/mission'
 import Growth from '@/components/growth'
 import Existence from '@/components/existence'
 import Community from '@/components/community'
+import Testimonials from '@/components/testimonial'
+import Connect from '@/components/connect'
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Growth />
       <Existence />
       <Community />
+      <Testimonials />
+      <Connect />
     </>
   )
 }
