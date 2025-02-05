@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Mission() {
   return (
-    <div className="flex flex-col items-start justify-between lg:flex-row xl:px-12">
+    <div className="flex flex-col items-start justify-between overflow-hidden lg:flex-row xl:px-12">
       <div className="w-full p-4 text-center sm:text-start">
         {/* Mission Header */}
         <div className="flex flex-col items-center space-x-2 text-3xl font-bold tracking-tight sm:flex-row sm:items-start xl:text-6xl">

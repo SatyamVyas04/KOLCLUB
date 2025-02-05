@@ -9,6 +9,12 @@
   src: url('/assets/Pxl Grotesk.ttf') format('truetype');
 }
 
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
 :root {
   --foreground: #ffffff;
   --secondary: #5b28ce;

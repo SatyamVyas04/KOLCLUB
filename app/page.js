@@ -5,6 +5,7 @@ import Gateway2 from '@/components/gateway2'
 import Mission from '@/components/mission'
 import Growth from '@/components/growth'
 import Existence from '@/components/existence'
+import Community from '@/components/community'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Mission />
       <Growth />
       <Existence />
+      <Community />
     </>
   )
 }
