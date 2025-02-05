@@ -6,7 +6,7 @@ export default function Existence() {
       <h1 className="pr-6 text-end text-3xl uppercase tracking-tighter xl:text-7xl">
         <span className="font-pxl">Reason</span> of Existence
       </h1>
-      <div className="mx-auto grid grid-cols-1 gap-4 p-2 md:p-4 xl:grid-cols-2 xl:p-16">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 p-2 md:p-4 xl:grid-cols-2 xl:p-16">
         <div className="relative xl:col-span-2">
           <h1 className="absolute left-6 top-2 font-bold xl:top-8 xl:text-5xl">
             The Crypto Concierge

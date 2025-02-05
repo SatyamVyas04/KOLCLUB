@@ -3,7 +3,7 @@ import { OrbitingCircles } from '@/components/ui/orbiting-circles'
 
 export function OrbitingCirclesDemo() {
   return (
-    <div className="relative flex h-[600px] w-full flex-col items-center justify-center overflow-hidden">
+    <div className="relative flex h-[600px] w-full flex-col items-center justify-center">
       <Image
         src="/assets/hero/logo.png"
         width={200}
@@ -13,7 +13,7 @@ export function OrbitingCirclesDemo() {
       />
 
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="h-[500px] w-[500px] rounded-full bg-gradient-to-r from-zinc-700 to-black opacity-50" />
+        <div className="h-[200px] w-[200px] rounded-full bg-gradient-to-r from-zinc-700 to-black opacity-50 xl:h-[500px] xl:w-[500px]" />
       </div>
 
       <OrbitingCircles iconSize={80}>
@@ -57,7 +57,7 @@ export function OrbitingCirclesDemo() {
 
 export default function Community() {
   return (
-    <section className="relative mb-0 flex w-full flex-col items-center justify-between overflow-clip bg-gradient-to-br from-[#222] to-[#111] p-4 !pb-0 xl:flex-row xl:items-start xl:justify-evenly xl:px-16 xl:py-16">
+    <section className="relative mb-0 flex w-full flex-col items-center justify-between overflow-clip bg-gradient-to-br from-[#222] to-[#111] p-4 !pb-0 !pt-0 xl:flex-row xl:items-start xl:justify-evenly xl:px-16 xl:py-16">
       <div className="space-y-3">
         <OrbitingCirclesDemo />
         <h1 className="font-pxl text-3xl uppercase md:text-4xl xl:text-6xl">
