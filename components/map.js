@@ -10,7 +10,7 @@ export default function SectionTwo() {
         alt="logo"
         className="w-[100dvw]"
       />
-      <div className="w-full p-4 text-center font-pxl tracking-[-6px] text-foreground sm:text-start xl:absolute xl:-translate-y-44">
+      <div className="w-full p-4 text-center font-pxl text-foreground sm:text-start lg:tracking-[-6px] xl:absolute xl:-translate-y-44">
         <div className="flex items-center justify-center space-x-2 text-3xl font-bold sm:justify-start xl:text-6xl">
           <span>14+</span>
           <span className="text-primary xl:pr-8">REGIONS</span>

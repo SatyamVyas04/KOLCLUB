@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function CommunitySection() {
   return (
-    <div className="relative z-10 flex w-full -translate-y-24 flex-col items-center justify-evenly gap-4 bg-gradient-to-b from-transparent via-[#2129e4] to-[#2129e4] px-4 py-12 md:px-8 lg:flex-row lg:px-16">
+    <div className="relative z-10 flex w-full flex-col items-center justify-evenly gap-4 bg-gradient-to-b from-transparent via-[#2129e4] to-[#2129e4] px-4 py-12 md:px-8 lg:flex-row lg:px-16 xl:-translate-y-24">
       {/* Monkey Avatars Container */}
       <div className="flex h-fit w-fit max-w-lg items-center justify-center gap-3 rounded-3xl border border-white/20 bg-white/5 p-3 lg:max-w-xl">
         {/* Avatar 1 */}
