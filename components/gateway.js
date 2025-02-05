@@ -18,7 +18,11 @@ export default function Gateway() {
         alt="Monkey Main"
         layout="fill"
         objectFit="contain"
-        className="absolute bottom-0 left-1/2 -z-20 h-[90vh] w-auto -translate-y-[15%] scale-105 lg:translate-y-0"
+        className="absolute bottom-0 left-1/2 -z-20 h-[90vh] w-auto -translate-y-[15%] scale-105 lg:-translate-y-4"
+        style={{
+          maskImage:
+            'linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%)'
+        }}
       />
 
       {/* Tooltip: Web3 Impact */}
@@ -39,7 +43,7 @@ export default function Gateway() {
           alt="Logo Blur"
           layout="fill"
           objectFit="contain"
-          className="absolute -z-10 mx-auto max-w-[95dvw] -translate-y-[40%] xl:-translate-y-[20%]"
+          className="absolute -z-10 mx-auto max-w-[95dvw] -translate-y-[40%] xl:-translate-y-[30%]"
           style={{
             maskImage:
               'linear-gradient(to right, rgba(0,0,0,1) 45%, rgba(0,0,0,0.7) 47.5%, rgba(0,0,0,0.7) 52.5%, rgba(0,0,0,1) 55%)'
