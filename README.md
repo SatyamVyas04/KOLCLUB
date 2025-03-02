@@ -17,7 +17,6 @@ KOLCLUB serves as a gateway to exclusive opportunities, expert guidance, and a t
 ## Technologies Used
 
 - **Next.js**: A React framework for building server-side rendered applications.
-- **TypeScript**: A statically typed programming language that builds on JavaScript.
 - **TailwindCSS**: A utility-first CSS framework for designing the layout and appearance of the page.
 - **MagicUI**: Built on top of shadcn, using Framer Motion, MagicUI provides a range of pick and use animations.
 
