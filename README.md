@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![KOLCLUB](https://github.com/user-attachments/assets/91534f77-c36f-41e5-ae22-285e2ada3ae4)
+
+[Under Development]
+
+Welcome to the repository for KOLCLUB, a platform dedicated to empowering the next generation of crypto leaders by fostering connections, sharing knowledge, and providing valuable resources.
+
+## Project Overview
+
+KOLCLUB serves as a gateway to exclusive opportunities, expert guidance, and a thriving community in the dynamic world of cryptocurrencies. Our mission is to build a vibrant and inclusive community that equips individuals—whether beginners or experts—with the tools and confidence needed to succeed in the evolving landscape of decentralized finance.
+
+## Features
+
+- **Global Reach**: Serving across the globe with a network of over 300 Key Opinion Leaders (KOLs) across 14+ regions.
+- **Comprehensive Services**: Offering support in Go-To-Market strategies, tokenomics, growth support, and ecosystem partnerships.
+- **Community Engagement**: Hosting virtual and in-real-life events, promoting community initiatives, and providing mentorship opportunities.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-side rendered applications.
+- **TypeScript**: A statically typed programming language that builds on JavaScript.
+- **TailwindCSS**: A utility-first CSS framework for designing the layout and appearance of the page.
+- **MagicUI**: Built on top of shadcn, using Framer Motion, MagicUI provides a range of pick and use animations.
 
 ## Getting Started
 
-First, run the development server:
+To set up the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/your-username/kolclub.git
+   cd kolclub
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. **Install dependencies**:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Run the development server**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   The application will be available at `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The platform is deployed using Vercel. For more details on deployment, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
